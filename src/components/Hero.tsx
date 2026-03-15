@@ -121,9 +121,10 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hously-background.png"
-          alt="Минималистичный архитектурный интерьер"
+          alt="Чистая уютная квартира"
           className="w-full h-full object-cover object-center"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       <div
@@ -136,31 +137,38 @@ export function Hero() {
           transformStyle: "preserve-3d",
         }}
       >
-        <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Архитектурная студия"}</p>
+        <div className="mb-72 md:mb-60 lg:mb-80 text-center">
+          <p className="text-sm tracking-[0.3em] uppercase text-white/70 mb-4">Профессиональный клининг квартир</p>
 
           <h1
             ref={titleRef}
-            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
+            className="text-6xl font-medium text-balance text-center text-white mb-8 tracking-tight leading-[1.0] lg:text-8xl"
           >
-            {"Создаем пространства"}
+            {"Чистота в вашем доме"}
             <br />
-            <span className="text-orange-200">{"для жизни"}</span>
+            <span className="text-sky-200">{"с гарантией результата"}</span>
           </h1>
+
+          <a
+            href="#services"
+            className="inline-flex items-center gap-2 bg-white text-foreground px-8 py-4 text-sm font-medium tracking-wide hover:bg-sky-50 transition-colors duration-300"
+          >
+            Заказать уборку
+          </a>
         </div>
       </div>
 
       <div className="absolute inset-0 z-20 pointer-events-none">
         <img
           src="/images/hously-foreground.png"
-          alt="Мраморная кухонная столешница"
+          alt="foreground"
           className="w-full h-full object-cover object-center"
         />
       </div>
 
       {animationComplete && (
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce z-30">
-          <ArrowDown className="w-5 h-5 text-muted-foreground" />
+          <ArrowDown className="w-5 h-5 text-white/70" />
         </div>
       )}
     </section>

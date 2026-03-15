@@ -1,25 +1,26 @@
 import { useEffect, useRef, useState } from "react"
 import { HighlightedText } from "./HighlightedText"
 
-const philosophyItems = [
+const reasons = [
   {
-    title: "Минимализм со смыслом",
+    title: "Проверенные специалисты",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Все наши исполнители проходят обучение и проверку. Вы впускаете в дом только надёжных профессионалов.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Профессиональная химия",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Используем сертифицированные средства, безопасные для детей и животных. Эффективно убираем загрязнения без вреда для поверхностей.",
   },
   {
-    title: "Естественная динамика",
+    title: "Гарантия качества",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Если что-то не устроит — вернёмся и исправим бесплатно. Вы платите только за результат, который вас радует.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Удобный сервис",
+    description:
+      "Рассчитаем стоимость по фото, приедем в удобное время. Никаких скрытых доплат — цена фиксируется до начала работы.",
   },
 ]
 
@@ -51,31 +52,29 @@ export function Philosophy() {
     <section id="about" className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
-          {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши преимущества</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Почему выбирают
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>нас</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
                 src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
+                alt="Чистая квартира после клининга"
                 className="opacity-90 relative z-10 w-auto"
               />
             </div>
           </div>
 
-          {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Мы наводим порядок в сотнях квартир каждый месяц. Доверяйте профессионалам — и наслаждайтесь результатом.
             </p>
 
-            {philosophyItems.map((item, index) => (
+            {reasons.map((item, index) => (
               <div
                 key={item.title}
                 ref={(el) => {
