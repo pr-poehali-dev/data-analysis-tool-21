@@ -138,7 +138,7 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80 text-center">
-          <p className="text-sm tracking-[0.3em] uppercase text-white/70 mb-4">Профессиональный клининг квартир</p>
+          <p className="text-sm tracking-[0.3em] uppercase text-white/70 mb-4">Профессиональный клининг</p>
 
           <h1
             ref={titleRef}
