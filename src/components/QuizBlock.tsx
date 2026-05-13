@@ -41,9 +41,8 @@ export function QuizBlock() {
     { value: "Поддерживающая", emoji: "🧹" },
     { value: "Генеральная", emoji: "✨" },
     { value: "После ремонта", emoji: "🔨" },
-    { value: "После ЧП (пожар, потоп)", emoji: "🚨" },
-    { value: "Постоянная (1–7 раз в неделю)", emoji: "📅" },
     { value: "Мойка окон", emoji: "🪟" },
+    { value: "После ЧП (пожар, потоп)", emoji: "🚨" },
     { value: "Химчистка", emoji: "👕" },
   ]
 
