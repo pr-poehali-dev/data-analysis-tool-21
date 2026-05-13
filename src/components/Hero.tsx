@@ -121,7 +121,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hously-background.png"
-          alt="Чистая уютная квартира"
+          alt="Чистое уютное помещение"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/40" />

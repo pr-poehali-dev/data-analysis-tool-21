@@ -8,7 +8,7 @@ export function Footer() {
               <span className="text-foreground font-semibold text-lg tracking-wide">Домовёнок Кострома</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Профессиональная уборка квартир в Костроме. Работаем быстро, честно и с гарантией результата.
+              Профессиональная уборка в Костроме. Работаем быстро, честно и с гарантией результата.
             </p>
           </div>
 

@@ -63,7 +63,7 @@ export function Philosophy() {
             <div className="relative hidden lg:block">
               <img
                 src="/images/exterior.png"
-                alt="Чистая квартира после клининга"
+                alt="Чистое помещение после клининга"
                 className="opacity-90 relative z-10 w-auto"
               />
             </div>
@@ -71,7 +71,7 @@ export function Philosophy() {
 
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Мы наводим порядок в сотнях квартир каждый месяц. Доверяйте профессионалам — и наслаждайтесь результатом.
+              Мы наводим порядок в сотнях помещений каждый месяц. Доверяйте профессионалам — и наслаждайтесь результатом.
             </p>
 
             {reasons.map((item, index) => (
