@@ -6,6 +6,7 @@ import { Expertise } from "../components/Expertise"
 import { FAQ } from "../components/FAQ"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
+import { QuizBlock } from "../components/QuizBlock"
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
       <Hero />
       <Philosophy />
       <Projects />
+      <QuizBlock />
       <Expertise />
       <FAQ />
       <CallToAction />
