@@ -12,10 +12,10 @@ export default function Index() {
   return (
     <main className="min-h-screen">
       <Header />
+      <QuizBlock />
       <Hero />
       <Philosophy />
       <Projects />
-      <QuizBlock />
       <Expertise />
       <FAQ />
       <CallToAction />
