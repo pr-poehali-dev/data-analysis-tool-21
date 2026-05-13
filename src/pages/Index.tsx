@@ -12,8 +12,8 @@ export default function Index() {
   return (
     <main className="min-h-screen">
       <Header />
-      <QuizBlock />
       <Hero />
+      <QuizBlock />
       <Philosophy />
       <Projects />
       <Expertise />
