@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <span className="text-foreground font-semibold text-lg tracking-wide">КлинингКострома</span>
+              <span className="text-foreground font-semibold text-lg tracking-wide">Домовёнок Кострома</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Профессиональная уборка квартир в Костроме. Работаем быстро, честно и с гарантией результата.
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 КлинингКострома. Все права защищены.</p>
+          <p>© 2025 Домовёнок Кострома. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
