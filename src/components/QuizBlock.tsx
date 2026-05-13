@@ -43,6 +43,8 @@ export function QuizBlock() {
     { value: "После ремонта", emoji: "🔨" },
     { value: "После ЧП (пожар, потоп)", emoji: "🚨" },
     { value: "Постоянная (1–7 раз в неделю)", emoji: "📅" },
+    { value: "Мойка окон", emoji: "🪟" },
+    { value: "Химчистка", emoji: "👕" },
   ]
 
   const roomTypes = [
