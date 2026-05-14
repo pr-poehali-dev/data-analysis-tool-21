@@ -60,9 +60,18 @@ export function Expertise() {
             <br />
             которым доверяют
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Клининговая компания в Костроме. Убираем помещения любой сложности — от лёгкой поддерживающей до полной генеральной уборки.
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            Нашими партнерами являются:
           </p>
+          <ul className="text-muted-foreground text-lg leading-relaxed space-y-2 list-none">
+            <li>1. Коллаж</li>
+            <li>2. Православная мастерская «Элигий»</li>
+            <li>3. ЭТАЖИ</li>
+            <li>4. Синяя птица</li>
+            <li>5. АКТИВ КАРБОН</li>
+            <li>6. НОВОТЕКС+</li>
+            <li>7. Кинотеатр «Пять звёзд»</li>
+          </ul>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
