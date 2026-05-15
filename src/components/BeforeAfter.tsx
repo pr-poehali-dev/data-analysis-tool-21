@@ -103,6 +103,17 @@ export function BeforeAfter() {
             </div>
           ))}
         </div>
+
+        <div className="text-center mt-12">
+          <a
+            href="https://vk.com/kliningkostroma"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-3 bg-foreground text-background px-10 py-4 rounded-full text-base font-medium hover:opacity-80 transition-opacity duration-300"
+          >
+            Заказать уборку
+          </a>
+        </div>
       </div>
     </section>
   )
