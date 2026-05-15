@@ -33,7 +33,12 @@ export function QuizBlock() {
     setTimeout(() => goNext(), 200)
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    await fetch("https://functions.poehali.dev/222c48a5-f8e5-4759-9f9e-beba1d5271d4", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(answers),
+    })
     setSubmitted(true)
   }
 
