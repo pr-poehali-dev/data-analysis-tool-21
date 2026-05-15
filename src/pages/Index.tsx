@@ -7,6 +7,7 @@ import { FAQ } from "../components/FAQ"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
 import { QuizBlock } from "../components/QuizBlock"
+import { BeforeAfter } from "../components/BeforeAfter"
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <Philosophy />
       <Projects />
       <Expertise />
+      <BeforeAfter />
       <FAQ />
       <CallToAction />
       <Footer />
