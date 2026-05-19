@@ -84,6 +84,14 @@ export function Expertise() {
               </div>
             ))}
           </div>
+
+          <div className="mt-10">
+            <img
+              src="https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/b92bbf52-9229-4120-bb3c-e0581cd5980e.jpg"
+              alt="Наша команда"
+              className="w-full rounded-2xl object-cover"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
