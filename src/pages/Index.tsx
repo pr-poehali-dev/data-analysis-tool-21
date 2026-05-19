@@ -8,6 +8,7 @@ import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
 import { QuizBlock } from "../components/QuizBlock"
 import { BeforeAfter } from "../components/BeforeAfter"
+import { Certificates } from "../components/Certificates"
 
 export default function Index() {
   return (
@@ -18,6 +19,7 @@ export default function Index() {
       <Philosophy />
       <Projects />
       <Expertise />
+      <Certificates />
       <BeforeAfter />
       <FAQ />
       <CallToAction />
