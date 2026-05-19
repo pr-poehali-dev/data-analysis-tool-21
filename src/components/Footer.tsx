@@ -51,6 +51,16 @@ export function Footer() {
                   ВКонтакте
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://max.ru/u/f9LHodD0cOLyH2LKdrQKcQl4Nsa3gKWJr19T8bK7YheHW1S1rqELeSgxE2o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
+                  МАХ
+                </a>
+              </li>
             </ul>
           </div>
         </div>

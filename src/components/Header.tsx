@@ -1,6 +1,9 @@
 import { useState, useEffect, MouseEvent } from "react"
 import { cn } from "../lib/utils"
 
+const VK_URL = "https://vk.com/kliningkostroma"
+const MAX_URL = "https://max.ru/u/f9LHodD0cOLyH2LKdrQKcQl4Nsa3gKWJr19T8bK7YheHW1S1rqELeSgxE2o"
+
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -60,14 +63,24 @@ export function Header() {
           ))}
         </ul>
 
-        <a
-          href="https://vk.com/kliningkostroma"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:inline-flex items-center gap-2 text-sm px-5 py-2.5 transition-all duration-300 bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white"
-        >
-          Заказать уборку
-        </a>
+        <div className="hidden md:flex items-center gap-2">
+          <a
+            href={VK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm px-4 py-2.5 transition-all duration-300 bg-[#0077FF] text-white hover:bg-[#0066DD]"
+          >
+            ВК
+          </a>
+          <a
+            href={MAX_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm px-4 py-2.5 transition-all duration-300 bg-[#FF6B00] text-white hover:bg-[#e05e00]"
+          >
+            МАХ
+          </a>
+        </div>
 
         <button
           className="md:hidden z-50 transition-colors duration-300 text-white"
@@ -115,15 +128,26 @@ export function Header() {
             ))}
           </ul>
 
-          <a
-            href="https://vk.com/kliningkostroma"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white transition-all duration-300 mb-4"
-            onClick={closeMobileMenu}
-          >
-            Заказать уборку
-          </a>
+          <div className="flex gap-3 mb-4">
+            <a
+              href={VK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-[#0077FF] text-white hover:bg-[#0066DD] transition-all duration-300"
+              onClick={closeMobileMenu}
+            >
+              ВКонтакте
+            </a>
+            <a
+              href={MAX_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-[#FF6B00] text-white hover:bg-[#e05e00] transition-all duration-300"
+              onClick={closeMobileMenu}
+            >
+              МАХ
+            </a>
+          </div>
         </div>
       </div>
     </header>
