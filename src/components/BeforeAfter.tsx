@@ -7,11 +7,6 @@ const pairs = [
     after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/ea7fc03b-449f-42ac-b664-8126a1dc944f.jpg",
   },
   {
-    label: "Ванная",
-    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/6dde9794-e926-4b18-a021-9d1c795fb856.jpg",
-    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/028744a8-f0a0-41a4-aa0d-48cc1d1d8af0.jpg",
-  },
-  {
     label: "Пол",
     before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/129b66ac-344a-432e-9fce-bb13fe1edf99.jpg",
     after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/7ae5d250-c153-47e8-9f35-6635eb52d459.jpg",
