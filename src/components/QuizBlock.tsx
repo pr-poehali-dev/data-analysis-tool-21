@@ -64,7 +64,7 @@ export function QuizBlock() {
 
         <div className="text-center mb-10">
           <p className="text-sm tracking-[0.3em] uppercase text-white/50 mb-3">Быстро и просто</p>
-          <h2 className="text-3xl md:text-4xl font-medium text-white">Главные вопросы</h2>
+          <h2 className="text-3xl md:text-4xl font-medium text-white">Рассчитайте стоимость клининга</h2>
         </div>
 
         <div className="flex items-center gap-2 mb-10">
