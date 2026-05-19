@@ -65,7 +65,7 @@ export function Philosophy() {
               <HighlightedText>нас</HighlightedText>
             </h2>
 
-            <div className="relative hidden lg:block">
+            <div className="relative lg:block">
               <img
                 src="https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/94c0dd55-f2f6-47ec-a6fb-36809eb58b2a.JPG"
                 alt="Чистое помещение после клининга"
