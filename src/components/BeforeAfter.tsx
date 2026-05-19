@@ -11,6 +11,11 @@ const pairs = [
     before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/93fa9a41-6760-4616-8f8b-d17d0149ba56.jpg",
     after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/0cb8863b-05ca-4b81-a835-784840913220.jpg",
   },
+  {
+    label: "Балкон",
+    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/da0888b3-8446-4b10-97b4-29aec0bbd1ab.jpg",
+    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/89bb2a10-3694-4ddc-b52c-08d90db23a0a.jpg",
+  },
 ]
 
 function SliderItem({ before, after }: { before: string; after: string }) {
