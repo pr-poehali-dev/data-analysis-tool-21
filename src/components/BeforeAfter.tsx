@@ -2,14 +2,14 @@ import { useRef, useState, useCallback } from "react"
 
 const pairs = [
   {
-    label: "Плита",
-    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/05ea1f43-2bd4-44ee-b4ed-29d405940c73.jpg",
-    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/ea7fc03b-449f-42ac-b664-8126a1dc944f.jpg",
+    label: "Окна",
+    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/148b4ca8-d85a-4a50-a7ef-d9a5bfdf141d.jpg",
+    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/0150516c-88ab-4932-a0ea-a7d889c0dac7.jpg",
   },
   {
-    label: "Пол",
-    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/129b66ac-344a-432e-9fce-bb13fe1edf99.jpg",
-    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/files/7ae5d250-c153-47e8-9f35-6635eb52d459.jpg",
+    label: "Откосы",
+    before: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/93fa9a41-6760-4616-8f8b-d17d0149ba56.jpg",
+    after: "https://cdn.poehali.dev/projects/650ff3e9-e7d6-4a0f-935f-7fcb054f7123/bucket/0cb8863b-05ca-4b81-a835-784840913220.jpg",
   },
 ]
 
